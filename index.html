@@ -1,0 +1,280 @@
+<!doctype html>
+<!--
+  Studio Márcia Choe · Site Cinematográfico por Labrego IA (labregoia.com.br)
+  Projeto: LBG-SC-20261110-611C1A4C03 · Assinatura LBG-SC-2026-v1
+  © 2026 Labrego IA. Estrutura, código e método licenciados.
+
+  Para ajustar depois: WhatsApp, links e e-mail ficam em config.js.
+  Trechos marcados "A CONFIRMAR" dependem da cliente.
+  Imagens ilustrativas em assets/img/ (troque pelas fotos reais com o mesmo nome).
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio Márcia Choe · Salão de beleza no Bom Retiro, São Paulo</title>
+  <meta name="description" content="Salão de beleza, barbearia, estética e podologia na Rua Guarani, 50, Bom Retiro, São Paulo. Atendemos adultos e crianças em português, espanhol, inglês e coreano.">
+  <meta name="generator" content="Site Cinematográfico · Labrego IA">
+  <meta name="author" content="Labrego IA · labregoia.com.br">
+  <meta property="og:title" content="Studio Márcia Choe">
+  <meta property="og:description" content="Beleza e cuidado no coração do Bom Retiro.">
+  <meta property="og:image" content="assets/og.jpg">
+  <meta name="theme-color" content="#f4eee6">
+  <link rel="icon" href="assets/logo-site.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/frames/desktop/f_0001.webp">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<a class="pular" href="#sobre">Pular a abertura</a>
+
+<header class="topo">
+  <a href="#inicio" class="marca" aria-label="Studio Márcia Choe, início">
+    <img src="assets/logo-site.png" alt="Studio Márcia Choe" class="marca-logo" width="1214" height="723">
+  </a>
+  <nav class="menu" aria-label="Seções">
+    <a href="#servicos">Serviços</a>
+    <a href="#agendar">Como agendar</a>
+    <a href="#onde">Onde estamos</a>
+    <a href="#perguntas">Dúvidas</a>
+    <a href="#contato" class="menu-cta">Agendar</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ABERTURA: o vídeo toca com a rolagem -->
+  <section id="inicio" class="cine" style="--altura: 440vh" aria-label="Abertura">
+    <div class="cine-palco">
+      <canvas class="cine-canvas" aria-hidden="true"></canvas>
+      <div class="cine-vinheta"></div>
+
+      <div class="momento" data-de="0" data-ate="0.3">
+        <div class="painel painel--vidro">
+          <h1 class="titulo-abertura">Studio Márcia Choe</h1>
+          <p class="apoio">Beleza e cuidado no coração do Bom Retiro.</p>
+        </div>
+      </div>
+      <div class="momento momento--direita" data-de="0.36" data-ate="0.66">
+        <div class="painel painel--vidro">
+          <p class="destaque">Salão de beleza, barbearia, estética e podologia.</p>
+          <p class="apoio">Para adultos e crianças, em português, español, English e 한국어.</p>
+        </div>
+      </div>
+      <div class="momento momento--centro" data-de="0.74" data-ate="1">
+        <div class="painel painel--vidro">
+          <p class="destaque">A cadeira está pronta. Escolha o seu horário.</p>
+          <div class="acoes acoes--centro">
+            <a class="botao js-whats" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+            <a class="link-sec js-trinks" target="_blank" rel="noopener">ou reserve pelo Trinks</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine-dica" aria-hidden="true"><span></span>role</div>
+    </div>
+  </section>
+
+  <!-- 01 SOBRE -->
+  <section id="sobre" class="secao">
+    <img class="arte arte--direita" src="assets/img/sobre.webp" alt="" loading="lazy">
+    <div class="secao-grade">
+      <div class="painel revelar">
+        <span class="rotulo">01</span>
+        <h2>Um espaço para cuidar de você</h2>
+        <!-- A CONFIRMAR: história da Márcia, anos de atividade e formação (só com dados da cliente) -->
+        <p>O Studio Márcia Choe fica na Rua Guarani, no Bom Retiro. Atendemos adultos e crianças, em português, espanhol, inglês e coreano.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 SERVIÇOS · A CONFIRMAR: lista real de serviços, descrição curta e preço (se a cliente quiser mostrar) -->
+  <section id="servicos" class="secao secao--larga">
+    <img class="arte arte--fundo" src="assets/img/servicos.webp" alt="" loading="lazy">
+    <div class="painel painel--cabecalho revelar">
+      <span class="rotulo">02</span>
+      <h2>O que fazemos</h2>
+    </div>
+    <div class="cartoes">
+      <article class="painel cartao revelar">
+        <h3>Salão de beleza</h3>
+        <a class="link-whats js-whats" data-servico="Salão de beleza" target="_blank" rel="noopener">Perguntar no WhatsApp</a>
+      </article>
+      <article class="painel cartao revelar">
+        <h3>Barbearia</h3>
+        <a class="link-whats js-whats" data-servico="Barbearia" target="_blank" rel="noopener">Perguntar no WhatsApp</a>
+      </article>
+      <article class="painel cartao revelar">
+        <h3>Estética</h3>
+        <a class="link-whats js-whats" data-servico="Estética" target="_blank" rel="noopener">Perguntar no WhatsApp</a>
+      </article>
+      <article class="painel cartao revelar">
+        <h3>Podologia</h3>
+        <a class="link-whats js-whats" data-servico="Podologia" target="_blank" rel="noopener">Perguntar no WhatsApp</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- 03 COMO AGENDAR -->
+  <section id="agendar" class="secao">
+    <img class="arte arte--esquerda" src="assets/img/processo.webp" alt="" loading="lazy">
+    <div class="secao-grade secao-grade--direita">
+      <div class="painel revelar">
+        <span class="rotulo">03</span>
+        <h2>Agende em poucos passos</h2>
+        <ol class="passos">
+          <li><span>Chame no WhatsApp ou reserve pelo Trinks.</span></li>
+          <li><span>Escolha o serviço e o horário.</span></li>
+          <li><span>Venha para o Bom Retiro. A gente cuida do resto.</span></li>
+        </ol>
+        <div class="acoes">
+          <a class="botao js-whats" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="botao botao--contorno js-trinks" target="_blank" rel="noopener">Reservar pelo Trinks</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 INFORMAÇÕES PRÁTICAS · Fonte: página do Trinks. A CONFIRMAR com a cliente antes de publicar -->
+  <section id="informacoes" class="secao secao--info">
+    <div class="painel painel--info revelar">
+      <span class="rotulo">04</span>
+      <h2>Bom saber antes de vir</h2>
+      <dl class="infos">
+        <div><dt>Quem atendemos</dt><dd>Adultos e crianças.</dd></div>
+        <div><dt>Idiomas</dt><dd>Português, espanhol, inglês e coreano.</dd></div>
+        <div><dt>No espaço</dt><dd>Wi-Fi e TV.</dd></div>
+        <div><dt>Acessibilidade</dt><dd>Acesso para pessoas com deficiência.</dd></div>
+        <div><dt>Pagamento</dt><dd>Cartões de crédito e débito, PIX e dinheiro.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 05 ONDE ESTAMOS -->
+  <section id="onde" class="secao">
+    <img class="arte arte--direita" src="assets/img/onde.webp" alt="" loading="lazy">
+    <div class="secao-grade">
+      <div class="painel revelar">
+        <span class="rotulo">05</span>
+        <h2>Onde estamos</h2>
+        <address class="endereco">
+          Rua Guarani, 50 · Bom Retiro<br>
+          São Paulo - SP · CEP 01123-040
+        </address>
+        <!-- A CONFIRMAR: sábado até 19h (Google) ou 18h (Trinks) -->
+        <dl class="horario">
+          <div><dt>Terça a sábado</dt><dd>9h às 19h</dd></div>
+          <div><dt>Domingo e segunda</dt><dd>Fechado</dd></div>
+        </dl>
+        <div class="mapa">
+          <iframe title="Mapa: Rua Guarani, 50, Bom Retiro, São Paulo" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Rua+Guarani,+50+-+Bom+Retiro,+S%C3%A3o+Paulo+-+SP,+01123-040&output=embed"></iframe>
+        </div>
+        <div class="acoes">
+          <a class="botao js-mapa" target="_blank" rel="noopener">Abrir no Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 PERGUNTAS FREQUENTES -->
+  <section id="perguntas" class="secao secao--info">
+    <div class="painel painel--info revelar">
+      <span class="rotulo">06</span>
+      <h2>Perguntas frequentes</h2>
+      <div class="faq">
+        <details>
+          <summary>Vocês atendem crianças?</summary>
+          <p>Sim, atendemos adultos e crianças.</p>
+        </details>
+        <details>
+          <summary>Em quais idiomas vocês atendem?</summary>
+          <p>Português, espanhol, inglês e coreano.</p>
+        </details>
+        <details>
+          <summary>Como pago?</summary>
+          <p>Aceitamos cartão de crédito e débito, PIX e dinheiro.</p>
+        </details>
+        <details>
+          <summary>Quais os dias e horários?</summary>
+          <p>Terça a sábado, das 9h às 19h. Domingo e segunda fechado.</p>
+        </details>
+        <details>
+          <summary>Como agendo?</summary>
+          <p>Pelo WhatsApp <a class="js-whats" target="_blank" rel="noopener">(11) 97486-3840</a> ou pelo <a class="js-trinks" target="_blank" rel="noopener">Trinks</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 CONTATO: envia para o e-mail configurado em config.js -->
+  <section id="contato" class="secao secao--contato">
+    <img class="arte arte--fundo arte--suave" src="assets/img/contato.webp" alt="" loading="lazy">
+    <div class="painel painel--form revelar">
+      <span class="rotulo">07</span>
+      <h2>Vamos conversar?</h2>
+      <p>Mande uma mensagem e a gente responde para combinar o seu horário.</p>
+      <form class="form" novalidate>
+        <div class="campo">
+          <label for="f-nome">Nome</label>
+          <input id="f-nome" name="nome" autocomplete="name" required>
+        </div>
+        <div class="campo">
+          <label for="f-tel">WhatsApp</label>
+          <input id="f-tel" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel" placeholder="(11) 90000-0000" required>
+        </div>
+        <div class="campo campo--inteiro">
+          <label for="f-servico">Serviço de interesse</label>
+          <select id="f-servico" name="servico" required>
+            <option value="">Escolha uma opção</option>
+            <option>Salão de beleza</option>
+            <option>Barbearia</option>
+            <option>Estética</option>
+            <option>Podologia</option>
+            <option>Ainda não sei</option>
+          </select>
+        </div>
+        <div class="campo campo--inteiro">
+          <label for="f-msg">Mensagem</label>
+          <textarea id="f-msg" name="mensagem" rows="4"></textarea>
+        </div>
+        <input type="text" name="_honey" class="pote" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button type="submit" class="botao campo--inteiro">Enviar mensagem</button>
+        <p class="form-status campo--inteiro" role="status" aria-live="polite"></p>
+      </form>
+      <p class="ou-whats">Prefere falar agora? <a class="js-whats" target="_blank" rel="noopener">Chame no WhatsApp</a>.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="painel rodape-painel">
+    <img src="assets/logo-site.png" alt="Studio Márcia Choe" class="rodape-logo" width="1214" height="723" loading="lazy">
+    <div class="rodape-info">
+      <p>Rua Guarani, 50 · Bom Retiro · São Paulo - SP · CEP 01123-040</p>
+      <p>Terça a sábado, das 9h às 19h. Domingo e segunda: fechado.</p>
+    </div>
+    <nav class="rodape-links" aria-label="Contatos">
+      <a class="js-whats" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="js-instagram" target="_blank" rel="noopener">Instagram @mhairstudio50</a>
+      <a class="js-trinks" target="_blank" rel="noopener">Trinks</a>
+    </nav>
+    <div class="rodape-base">
+      <span>© <span data-ano></span> Studio Márcia Choe · Imagens ilustrativas.</span>
+      <a class="credito" href="https://labregoia.com.br" target="_blank" rel="noopener">Site por Labrego IA</a>
+    </div>
+  </div>
+</footer>
+
+<a class="whats js-whats" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.1c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.6 12.7-12.6S23 3 16 3Zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.2 1.3-4-.3-.4a10.4 10.4 0 0 1-1.6-5.6C5.5 9.8 10.2 5.2 16 5.2s10.5 4.6 10.5 10.4S21.8 26.1 16 26.1Zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.7 5 .8.4 1.4.6 1.9.7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4Z"/></svg>
+</a>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
