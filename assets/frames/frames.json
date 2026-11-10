@@ -1,3 +1,4 @@
-{ "total": 160, "largura": 1920, "altura": 1080,
+{ "total": 180, "largura": 1920, "altura": 1080,
   "desktop": "assets/frames/desktop/f_{n}.webp",
-  "mobile": "assets/frames/mobile/f_{n}.webp" }
+  "mobile": "assets/frames/mobile/f_{n}.webp",
+  "origem": "fonte/abertura-cliente.mp4 (video real da cliente, vertical 360x640, 34,7 s)" }

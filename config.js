@@ -26,7 +26,7 @@ window.SITE = {
   },
 
   frames: {
-    total: 160,
+    total: 180, // vídeo real da cliente (fonte/abertura-cliente.mp4)
     desktop: "assets/frames/desktop/f_{n}.webp",
     mobile: "assets/frames/mobile/f_{n}.webp",
   },
